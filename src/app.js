@@ -12,7 +12,7 @@ connectDB();
 app.use('/api', require('./routes/deviceRoutes'));
 
 app.get('/', (req, res) => {
-  res.send('Welcome to Yilkal’s IT Assignment API');
+  res.send('Welcome to Yilkal’s IT Inventory API');
 });
 
 // Start server
